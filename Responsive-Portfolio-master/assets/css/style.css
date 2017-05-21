@@ -1,0 +1,156 @@
+ * {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-size: 24px;
+   line-height: 32px;
+   color: #333;
+   
+ }
+ 
+ ul li{
+  display: inline;
+
+}
+ 
+ 
+ h1 {
+   margin-bottom: 0px;
+   font-size: 30px;
+   font-family: 'Georgia';
+   line-height: 45px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 15px;
+   
+   
+ }
+ 
+ p {
+   line-height: 28px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+hr{
+   color: #cccccc;
+   size: 5px;
+   width: 90%;
+}
+  .HeaderDiv{
+   background-color: white;
+   width: 60%;
+   padding: 0px;
+   margin: 0 auto;
+
+  }
+  .Name {
+   background-color: #4aaaa5;
+   width: 35%;
+   text-align: center;
+   color: white;
+   float: left;
+
+ }
+ .siteNav {
+   width: 350px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 0px;
+   color: #cccccc;
+   text-align: bottom;
+   float: left;
+   margin-left: 150px;
+
+ }
+
+  .imgMain{
+   float: left;
+   padding-right: 15px;
+  }
+  
+.wrapper{
+   height: 960px;
+   width: 80%;
+   padding: 20px;
+   margin-bottom: 0px;
+   background-image: url("../images/cork-wallet.png");
+   border-top: solid;
+   border-width: 5px;
+   border-color: #cccccc;
+   margin: auto;
+   clear: both;
+ }
+ 
+.relText{
+      position: relative;
+      float: left;
+      background-color: white;
+      width: 650px;
+      height: 75%;
+      font-size: 20px;
+
+   }
+ 
+ #txtAboutMe
+{
+   color: #4aaaa5;
+   border-bottom-color: #cccccc;
+   border-bottom-width: 5px;
+   
+}
+.relText2{
+      position: relative;
+      float: left;
+      padding-left: 0px; 
+      background-color: white;
+      width: 30%;
+      height: 30%;
+      margin-left: 125px;
+
+   }
+#txtConnectMe{
+   color: #4aaaa5;
+}
+
+.Connects{
+   
+   float: left;
+   text-align: right;
+   margin-left: 15px;
+}
+
+.ConnectionsDiv{
+   position: relative;
+   width: 70%;
+}
+   
+ .footer {
+   width: 80%;
+   padding: 0px;
+   margin: 0 auto;
+   height: 75px;
+   border-top: solid;
+   background-color: #666666;
+   border-color: #4aaaa5;
+   border-width: 5px;
+   text-align: center;
+   
+ }
+ .footP{
+   
+   font-size: 14px;
+   color: #cccccc;
+ }
+ .baseBetween{
+   height: 4px;
+   background-color: #4aaaa5;
+ }
+
+ 
+ /*Media queries to handle screen size max-width 768px*/
+
+
+  /*Media queries to handle screen size max-width 480px*/
