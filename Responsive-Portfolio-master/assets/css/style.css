@@ -346,5 +346,96 @@ h1 {
   /*Media queries to handle screen size max-width 480px*/
   @media screen and (max-width: 640px){
 
+      h1 {
+   margin-bottom: 0px;
+   font-size: 30px;
+   font-family: 'Georgia';
+   line-height: 45px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 15px;
+   
+   
+ }
+
+.Name {
+   background-color: #4aaaa5;
+   width: 35%;
+   text-align: center;
+   color: white;
+   float: left;
+
+ }
+ .siteNav {
+   width: 350px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 0px;
+   color: #cccccc;
+   text-align: bottom;
+   float: right;
+   
+ }
+
+  .imgMain{
+   float: left;
+   padding-right: 15px;
+   text-align: center;
+  }
+  
+.wrapper{
+   height: 960px;
+   width: 80%;
+   padding: 20px;
+   margin-bottom: 0px;
+   background-image: url("../images/cork-wallet.png");
+   border-top: solid;
+   border-width: 5px;
+   border-color: #cccccc;
+   margin: auto;
+   clear: both;
+ }
+ 
+.relText{
+      position: relative;
+      float: left;
+      background-color: white;
+      width: 80%;
+      height: 75%;
+      font-size: 20px;
+
+   }
+ 
+ #txtAboutMe
+{
+   color: #4aaaa5;
+   border-bottom-color: #cccccc;
+   border-bottom-width: 5px;
+   
+}
+.relText2{
+      position: relative;
+      float: left;
+      padding-left: 0px; 
+      background-color: white;
+      width: 80%;
+      margin-left: 25px;
+
+   }
+#txtConnectMe{
+   color: #4aaaa5;
+}
+
+.Connects{
+   
+   float: left;
+   size: 25px;
+   margin-left: 15px;
+}
+
       
+ }
+
  }
