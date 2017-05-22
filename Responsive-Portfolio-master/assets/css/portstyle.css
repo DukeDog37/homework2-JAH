@@ -172,4 +172,160 @@ hr{
  }
 
  
+ @media screen and (max-width: 768px){
+h1 {
+   margin-bottom: 0px;
+   font-size: 30px;
+   font-family: 'Georgia';
+   line-height: 45px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 15px;
+   
+   
+ }
+ h2{
+   position: relative;
+   background-color: #4aaaa5;
+   font-size: 24px;
+   color: white;
+   font-style: bold;
+   text-align: center;
+   top: -75px;
+   margin: 0px;
+ }
+
+h2:hover{
+
+   background-color: blue;
+
+}
+ p {
+   line-height: 28px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+hr{
+   color: #cccccc;
+   size: 5px;
+   width: 90%;
+}
+  .HeaderDiv{
+   background-color: white;
+   width: 60%;
+   padding: 0px;
+   margin: 0 auto;
+
+  }
+  .Name {
+   background-color: #4aaaa5;
+   width: 35%;
+   text-align: center;
+   color: white;
+   float: left;
+
+ }
+ .siteNav {
+   width: 350px;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-bottom: 0px;
+   color: #cccccc;
+   text-align: bottom;
+   float: left;
+   margin-left: 150px;
+
+ }
+
+  .imgMain{
+   float: left;
+   padding-right: 15px;
+  }
+  
+.wrapper{
+   height: 960px;
+   width: 80%;
+   padding: 20px;
+   margin-bottom: 0px;
+   background-image: url("../images/cork-wallet.png");
+   border-top: solid;
+   border-width: 5px;
+   border-color: #cccccc;
+   margin: auto;
+   clear: both;
+ }
  
+.relText{
+      position: relative;
+      float: left;
+      background-color: white;
+      width: 50%;
+      
+      font-size: 20px;
+
+   }
+ 
+ #txtPort
+{
+   color: #4aaaa5;
+   border-bottom-color: #cccccc;
+   border-bottom-width: 5px;
+   
+}
+.PortImages{
+   margin-left: 25px;
+   float: left;
+      
+}
+
+.relText2{
+      position: relative;
+      float: left;
+      padding-left: 0px; 
+      background-color: white;
+      width: 50%;
+      height: 30%;
+      
+
+   }
+#txtConnectMe{
+   color: #4aaaa5;
+}
+
+.Connects{
+   
+   float: left;
+   text-align: right;
+   margin-left: 15px;
+}
+
+.ConnectionsDiv{
+   position: relative;
+   width: 70%;
+}
+   
+ .footer {
+   width: 80%;
+   padding: 0px;
+   margin: 0 auto;
+   height: 75px;
+   border-top: solid;
+   background-color: #666666;
+   border-color: #4aaaa5;
+   border-width: 5px;
+   text-align: center;
+   
+ }
+ .footP{
+   
+   font-size: 14px;
+   color: #cccccc;
+ }
+ .baseBetween{
+   height: 4px;
+   background-color: #4aaaa5;
+ }
+
+ }
